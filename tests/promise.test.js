@@ -11,7 +11,7 @@ describe('Promise', () => {
   const mapper = (value, _current) => waitForMs(value);
 
   beforeEach(() => {
-    resetPromises();
+    // resetPromises();
   });
 
   test('serialAll should resolve promises serially ', () => {

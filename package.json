@@ -1,11 +1,11 @@
 {
-  "name": "utility-scripts",
+  "name": "@username/utility-scripts",
   "version": "1.0.0",
   "description": "Basic utility functions like save to csv, log to file, clonedeep, etc. all in one package",
   "main": "index.js",
   "scripts": {
     "pretty": "prettier . -w",
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --detectOpenHandles --coverage"
   },
   "keywords": [
     "utility",
