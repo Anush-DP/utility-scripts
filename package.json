@@ -1,0 +1,28 @@
+{
+  "name": "utility-scripts",
+  "version": "1.0.0",
+  "description": "Basic utility functions like save to csv, log to file, clonedeep, etc. all in one package",
+  "main": "index.js",
+  "scripts": {
+    "pretty": "prettier . -w",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "keywords": [
+    "utility",
+    "script",
+    "helper"
+  ],
+  "type": "module",
+  "author": "anush-dp",
+  "license": "MIT",
+  "dependencies": {
+    "clone-deep": "^4.0.1",
+    "lodash.isequal": "^4.5.0",
+    "lodash.isobject": "^3.0.2",
+    "lodash.transform": "^4.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.2",
+    "prettier": "^2.7.1"
+  }
+}
